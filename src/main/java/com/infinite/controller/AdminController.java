@@ -26,6 +26,7 @@ public class AdminController {
         if(validateuser!=null) {
         	//returns status code 200
         	return ResponseEntity.ok("Login successfull");
+        	
         }
         else {
         	//returns status code 401 unauthorized
